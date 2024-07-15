@@ -72,4 +72,7 @@ The dataset is highly imbalanced, with many more healthy loans (18,765) compared
 
 ### Model Recommendations
 - **Reliability**: Given the high accuracy, precision, and recall, the model is highly reliable and can be confidently used by financial institutions to assess loan risk.
-- **Risk Management**: The model’s ability to accurately ident
+- **Risk Management**: The model’s ability to accurately identify high-risk loans (with a recall of 0.91) makes it a valuable tool for managing and mitigating credit risk.
+- **Customer Satisfaction**: The high precision and recall for healthy loans ensure that most good loan applicants are approved, maintaining customer satisfaction and trust.
+
+The logistic regression model demonstrates excellent performance in predicting loan status, achieving high accuracy, precision, and recall for both healthy and high-risk loans. Its reliability in identifying risky loans and accurately approving healthy loans makes it a valuable tool for financial institutions. While there is a slight room for improvement in predicting high-risk loans, the current model's performance is strong enough to recommend its use for credit risk assessment.
